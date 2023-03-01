@@ -152,6 +152,7 @@ class App extends Component {
               alt="search"
             />
             <input
+              placeholder="search history"
               type="search"
               className="input"
               onChange={this.updateList}
